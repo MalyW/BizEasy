@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "noEmit": true, 
+    "allowImportingTsExtensions": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@dorix/shared": ["src/index.ts"],
+      "@dorix/shared/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+
+
+
