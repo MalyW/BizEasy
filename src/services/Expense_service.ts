@@ -1,4 +1,4 @@
-import { ExpenseModel } from "../modules/expense/expense.model";
+import { ExpenseModel } from "../models/expense/expense.model";
 
 export class ExpenseService {
     static async createExpense(data: any) {

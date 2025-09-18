@@ -1,4 +1,4 @@
-import { CategoryModel } from "../modules/category/category.model";
+import { CategoryModel } from "../models/category/category.model";
 
 export class CategoryService {
     static async createCategory(data: any) {

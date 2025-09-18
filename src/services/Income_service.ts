@@ -1,6 +1,6 @@
 import { error } from "console";
-import { IncomeDto } from "../modules/income";
-import { IncomeModel } from "../modules/income/income.model";
+import { IncomeDto } from "../models/income";
+import { IncomeModel } from "../models/income/income.model";
 
 export class IncomeService {
     
