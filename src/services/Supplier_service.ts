@@ -1,4 +1,4 @@
-import { SupplierModel } from "../modules/supplier/supplier.model";
+import { SupplierModel } from "../models/supplier/supplier.model";
 
 export class SupplierService {
     static async createSupplier(data: any) {

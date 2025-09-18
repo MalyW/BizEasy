@@ -1,4 +1,4 @@
-import { UserSettingsModel } from "../modules/userSettings/userSettings.model";
+import { UserSettingsModel } from "../models/userSettings/userSettings.model";
 
 export class UserSettingsService {
     static async createUserSettings(data: any) {

@@ -1,4 +1,4 @@
-import { IncomePaymentsModel } from "../modules/incomePayments/incomePayments.model"
+import { IncomePaymentsModel } from "../models/incomePayments/incomePayments.model"
 
 
 export class IncomePaymentsService {

@@ -1,4 +1,4 @@
-import { CustomerModel } from "../modules/customer/customer.model";
+import { CustomerModel } from "../models/customer/customer.model";
 
 export class CustomerService {
     static async createCustomer(data: any) {
